@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">DirgantaraAIA</string>
+    <string name="company_name">DIRGANTARA AIA TOUR AND TRAVEL</string>
+    <string name="address">jl. Cinere Residence Blok F5 No.12 Meruyung, Limo, Depok, Jawa Barat</string>
+    <string name="contact">(021) 7534903 - 082138145292</string>
+    <string name="email">dirgantara.aia@gmail.com</string>
+    <string name="website">dirgantaraaiatravel.com</string>
+    <string name="fb">\@dirgantaraaiatravel</string>
+    <string name="ig">\@dirgantara.aia</string>
+    <string name="yt">Dirgantara AIA Channel</string>
+    <string name="about">Sekilas Tentang Dirgantara AIA Tour &amp; Travel \n \nDirgantara AIA merupakan perusahaan jasa yang bergerak di bidang Tour and Travel serta Tour organizer. Dengan berbekal ratusan pengalaman dari 2015 hingga saat ini berdiri dengan trust masyarakat yang tinggi yang telah bergabung dengan jasa tour and travel terkemuka di Indonesia. Kepercayaan masyarakat akan kebutuhan mereka di bidang transportasi, wisata dan tour organizer merupakan modal utama bagi kami untuk terus maju dan berkembang secara berkala dan baik. Mulai dari study tour sekolahan, universitas, group perusahaan dill, sampai family private tour kami layani dengan sepenuh hati dan penuh tanggungjawab hingga kewajiban dan hak terlaksana dengan baik. Maka dari itu kami selalu mengutamakan keamanan, kenyamanan dan kepuasan pelanggan demi tercapainya visi serta misi perusahaan jasa tour and travel yang berkualitas dan utama.
+
+</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="more"><![CDATA[Selengkapnya >>]]></string>
 </resources>
