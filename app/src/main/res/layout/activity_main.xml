@@ -179,78 +179,65 @@
                             android:drawablePadding="@dimen/marginTop"
                             android:text="@string/website" />
 
-                        <androidx.appcompat.widget.AppCompatImageView
-                            android:id="@+id/fb_logo"
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_below="@+id/tv_website"
-                            android:layout_marginStart="2dp"
-                            android:layout_marginEnd="@dimen/marginTop"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/fb_logo">
-
-                        </androidx.appcompat.widget.AppCompatImageView>
-
-                        <TextView
-                            android:id="@+id/tv_fb"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/tv_website"
-                            android:layout_marginTop="@dimen/MarginInnerContent"
-                            android:layout_marginBottom="@dimen/MarginInnerContent"
-                            android:layout_toEndOf="@+id/fb_logo"
-                            android:text="@string/fb" />
-
-                        <androidx.appcompat.widget.AppCompatImageView
-                            android:id="@+id/ig_logo"
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_below="@+id/fb_logo"
-                            android:layout_marginStart="2dp"
-                            android:layout_marginTop="4dp"
-                            android:layout_marginEnd="@dimen/marginTop"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/ig_logo">
-
-                        </androidx.appcompat.widget.AppCompatImageView>
-
-                        <TextView
-                            android:id="@+id/tv_ig"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/tv_fb"
-                            android:layout_marginTop="@dimen/MarginInnerContent"
-                            android:layout_marginBottom="@dimen/MarginInnerContent"
-                            android:layout_toEndOf="@+id/fb_logo"
-                            android:text="@string/ig" />
-
-                        <androidx.appcompat.widget.AppCompatImageView
-                            android:id="@+id/yt_logo"
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_below="@+id/ig_logo"
-                            android:layout_marginStart="2dp"
-                            android:layout_marginTop="4dp"
-                            android:layout_marginEnd="@dimen/marginTop"
-                            android:scaleType="centerInside"
-                            android:src="@drawable/yt_logo">
-
-                        </androidx.appcompat.widget.AppCompatImageView>
-
-                        <TextView
-                            android:id="@+id/tv_yt"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/tv_ig"
-                            android:layout_marginTop="@dimen/MarginInnerContent"
-                            android:layout_marginBottom="@dimen/MarginInnerContent"
-                            android:layout_toEndOf="@+id/fb_logo"
-                            android:drawablePadding="@dimen/marginTop"
-                            android:text="@string/yt" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
-
             </FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="@dimen/marginTop"
+                    android:layout_marginEnd="50dp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/fb_logo"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="@dimen/marginTop"
+                        android:layout_weight="1"
+                        android:onClick="fbClick"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/fb_logo">
+
+                    </androidx.appcompat.widget.AppCompatImageView>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/ig_logo"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="@dimen/marginTop"
+                        android:layout_weight="1"
+                        android:foregroundGravity=""
+                        android:onClick="igCkick"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ig_logo">
+
+                    </androidx.appcompat.widget.AppCompatImageView>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/yt_logo"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="@dimen/marginTop"
+                        android:layout_weight="1"
+                        android:onClick="ytClick"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/yt_logo">
+
+                    </androidx.appcompat.widget.AppCompatImageView>
+
+                </LinearLayout>
+            </RelativeLayout>
 
 
         </LinearLayout>

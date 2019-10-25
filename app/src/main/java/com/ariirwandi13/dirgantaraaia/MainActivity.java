@@ -1,5 +1,7 @@
 package com.ariirwandi13.dirgantaraaia;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -41,5 +43,17 @@ public class MainActivity extends AppCompatActivity {
                 .setCancelable(true)
                 .setView(R.layout.about_us)
                 .show();
+    }
+
+    public void fbClick(View view) {
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/dirgantaraaiatravel/")));
+    }
+
+    public void igCkick(View view) {
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/dirgantara.aia/?hl=id")));
+    }
+
+    public void ytClick(View view) {
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCvQ9Pj3aIt7zREPme-TD6DA")));
     }
 }
