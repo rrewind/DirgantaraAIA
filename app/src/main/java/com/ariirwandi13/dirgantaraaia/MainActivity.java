@@ -19,27 +19,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapse);
         collapsingToolbarLayout.setTitleEnabled(false);
-
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("Dirgantara AIA");
-
         collapsingToolbarLayout.setCollapsedTitleTextColor(
                 ContextCompat.getColor(this, R.color.white));
         collapsingToolbarLayout.setExpandedTitleColor(
                 ContextCompat.getColor(this, R.color.colorPrimary));
-
         ImageView imageView = findViewById(R.id.imageView);
         imageView.setImageResource(R.drawable.profil);
-
-
     }
 
     public void kilk(View view) {
         new AlertDialog.Builder(this)
-
                 .setCancelable(true)
                 .setView(R.layout.about_us)
                 .show();
